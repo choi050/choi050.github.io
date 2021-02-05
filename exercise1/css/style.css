@@ -1,7 +1,7 @@
 body {
   background: white;
   margin: 10px;
-  height: 700px;
+  height: 2250px;
 }
 
 h1 {
@@ -68,4 +68,18 @@ a {
 
 a:hover {
   color: black;
+}
+
+#igcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.website1 {
+  padding: 0px 0px 10px 0px;
+}
+
+#maincontainer {
+  padding: 0px 0px 5px 0px;
 }
