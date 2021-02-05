@@ -1,46 +1,71 @@
 body {
-  background: black;
-  margin: 50px;
-  height: 500px;
+  background: white;
+  margin: 10px;
+  height: 700px;
 }
 
 h1 {
-  font-family: lores-12, sans-serif;
-  font-weight: 700;
+  font-family: ivypresto-display, serif;
+  font-weight: 100;
   font-style: normal;
-  font-size: 40pt;
-  color: #00ff00;
+  font-size: 50pt;
+  color: red;
+  text-align: center;
 }
 
 p {
   font-family: lores-12-narrow, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #00ff00;
+  color: red;
+  font-size: 20pt;
 }
 
-.maincontainer {
-  padding: 10px;
-  height: 400px;
+h2 {
+  font-family: helvetica, serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 12pt;
+  color: red;
+  text-align: left;
+}
+
+h3 {
+  font-family: helvetica, serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 12pt;
+  color: red;
+  text-align: right;
+}
+
+h4 {
+  font-family: helvetica, serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 12pt;
+  color: red;
+  text-align: center;
+}
+
+#textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 700px;
+}
+
+#maincontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
 }
 
 a {
-  color: #00ff00;
-  transition: color .3s;
-}
-
-a:hover {
   color: red;
 }
 
-li {
-  color: #00ff00;
-  font-family: lores-12-narrow, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.licontainer {
-  flex-direction: row;
-  justify-content: space-between;
+a:hover {
+  color: black;
 }
