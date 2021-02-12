@@ -226,3 +226,57 @@ h7 {
   z-index: 11;
   top: 3600px;
 }
+
+#DVDcontainer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.dvd {
+  position: absolute;
+  z-index: 29;
+  top: 4060px;
+}
+
+.dvdimg {
+  position: absolute;
+  z-index: 11;
+  top: 4400px;
+}
+
+#thrashercontainer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.thrasher {
+  position: absolute;
+  z-index: 11;
+  top: 4700px;
+}
+
+.thrasherimg {
+  position: absolute;
+  z-index: 11;
+  top: 4900px;
+}
+
+#ihopcontainer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.ihop {
+  position: absolute;
+  z-index: 11;
+  top: 5100px;
+}
+
+.ihopimg {
+  position: absolute;
+  z-index: 11;
+  top: 5450px;
+}
