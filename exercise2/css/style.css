@@ -1,0 +1,228 @@
+body {
+  background: white;
+  height: 500px;
+}
+
+#shincontainer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font: helvetica, bold;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 14px;
+}
+
+h1 {
+  font: helvetica;
+  font-size: 9pt;
+  color: yellow;
+}
+
+h3 {
+  font: helvetica;
+  font-size: 12pt;
+  color: yellow;
+}
+
+.ramenbag {
+  width: 550px;
+  height: 630px;
+  background-color: red;
+  position: absolute;
+  z-index: 0;
+}
+
+.shin {
+  top: 150px;
+  position: absolute;
+  z-index: 2;
+}
+
+.ramenbaggradient {
+  width: 550px;
+  height: 200px;
+  background-image: linear-gradient(red, black);
+  position: absolute;
+  z-index: 1;
+  top: 500px;
+}
+
+.background {
+  position: absolute;
+  z-index: 1;
+  right: 500px;
+  top: 100px;
+}
+
+.shinramen {
+  position: absolute;
+  z-index: 10;
+  top: 600px;
+  right: 850px;
+}
+
+.noodleimg {
+  position: absolute;
+  z-index: 11;
+  top: 750px;
+}
+
+#joycontainer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.blackbackground {
+  width: 500px;
+  height: 650px;
+  background-color: black;
+  position: absolute;
+  z-index: 0;
+  top: 1100px;
+}
+
+h4 {
+  font: helvetica;
+  font-size: 9pt;
+  color: white;
+}
+
+.joydivision {
+  position: absolute;
+  z-index: 1;
+  top: 1130px;
+}
+
+.joydivimg {
+  position: absolute;
+  z-index: 12;
+  top: 1800px;
+}
+
+#dovecontainer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.dovebackground {
+  width: 500px;
+  height: 350px;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 10;
+  top: 2230px;
+}
+
+.dovetitle {
+  position: absolute;
+  z-index: 18;
+  top: 2220px;
+  right: 690px;
+}
+
+h5 {
+  font: helvetica;
+  font-weight: bold;
+  font-size: 8pt;
+  color: #243377;
+}
+
+h6 {
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: gold;
+  font-size: 200pt;
+}
+
+h7 {
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: gold;
+  font-size: 300pt;
+}
+
+.dove1 {
+  position: absolute;
+  z-index: 18;
+  top: 1550px;
+  right: 750px;
+  transform: rotate(90deg);
+}
+
+.dove2 {
+  position: absolute;
+  z-index: 18;
+  top: 2090px;
+  right: 700px;
+  transform: rotate(90deg);
+}
+
+.oval {
+  width: 100px;
+  height: 50px;
+  background: gold;
+  border-radius: 100px / 50px;
+  position: absolute;
+  z-index: 19;
+  top: 2260px;
+  right: 500px;
+}
+
+.dovebg {
+  position: absolute;
+  z-index: 18;
+  top: 2330px;
+  right: 480px;
+}
+
+.rectangle1 {
+ width: 190px;
+ height: 50px;
+ background: #243377;
+ position: absolute;
+ z-index: 18;
+ top: 2500px;
+ right: 750px;
+}
+
+.rectangle2 {
+ width: 190px;
+ height: 10px;
+ background: gold;
+ position: absolute;
+ z-index: 18;
+ top: 2550px;
+ right: 750px;
+}
+
+.soapimg {
+  position: absolute;
+  z-index: 12;
+  top: 2600px;
+}
+
+#bagcontainer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.totebag {
+  position: absolute;
+  z-index: 12;
+  top: 2850px;
+}
+
+.bagimg {
+  position: absolute;
+  z-index: 11;
+  top: 3600px;
+}
