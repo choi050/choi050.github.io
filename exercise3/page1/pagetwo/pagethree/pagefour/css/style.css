@@ -1,0 +1,35 @@
+body {
+  background: black;
+  height: 500px;
+}
+
+#container {
+  padding: 50px;
+  width: 900px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#container1 {
+  padding: 10px;
+  width: 800px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto;
+}
+
+h1 {
+  color: #FE4519;
+  font-family: lores-9-narrow, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 90pt;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+}
