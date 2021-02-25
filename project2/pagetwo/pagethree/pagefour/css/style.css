@@ -1,0 +1,282 @@
+@media screen and (max-width: 480px) {
+  body {
+    background-color: black;
+  }
+
+  h1 {
+    font-size: 12pt;
+    color: white;
+  }
+
+  h2 {
+    font-size: 20pt;
+    color: white;
+  }
+
+  #maincontainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container1 {
+    padding: 10px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    background-color: black;
+    overflow: scroll;
+  }
+
+  .container2 {
+    padding: 10px;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    background-color: black;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container3 {
+    padding: 10px;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    background-color: black;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container4 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+  }
+
+a {
+  padding: 10px;
+  font-size: 20pt;
+  text-align: left;
+  color: aqua;
+}
+
+  .paragraph4 {
+    text-align: right;
+  }
+
+  .paragraph3 {
+    text-align: center;
+  }
+
+  .paragraph1 {
+    text-align: left;
+  }
+
+  .paragraph2 {
+    text-align: left;
+  }
+
+  p {
+    color: white;
+  }
+
+  #maincontainer3 {
+    display: none;
+  }
+
+  #maincontainer4 {
+    display: none;
+  }
+
+  #maincontainer5 {
+    display: none;
+  }
+
+  #maincontainer6 {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 568px) {
+  body {
+    background-color: white;
+  }
+
+    h1 {
+      font-size: 20pt;
+      color: black;
+      text-align: center;
+      animation: font-size 3s infinite;
+    }
+
+    @keyframes font-size {
+      0%   {font-size: 20pt}
+      25% {font-size: 40pt}
+      30% {font-size: 35pt}
+      35% {font-size: 40pt}
+      100% {font-size: 20pt}
+    }
+
+    h2 {
+      font-size: 13pt;
+      color: black;
+      text-align: right;
+    }
+
+    #maincontainer {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .container1 {
+      display: none;
+    }
+
+    .container2 {
+      display: none;
+    }
+
+    .container3 {
+      display: none;
+    }
+
+    .container4 {
+      display: none;
+    }
+
+    .circle {
+   background-color: transparent;
+   shape-outside: circle(50%);
+   width: 50px;
+   height: 550px;
+   float: right;
+   animation: nudge 3s infinite;
+}
+
+    #maincontainer3 {
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid black;
+      width: 150px;
+      height: 200px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      animation: height 3s infinite;
+    }
+
+    @keyframes height {
+      0%   {height: 200px}
+      50%   {height: 300px}
+      100%   {height: 200px}
+    }
+
+
+    @keyframes nudge {
+      0%, 100% {
+        shape-outside: circle(50%);
+      }
+      50% {
+        shape-outside: circle(25%);
+      }
+    }
+
+    #maincontainer4 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      overflow: scroll;
+      background-color: transparent;
+      width: 35%;
+      overflow: scroll;
+
+    }
+
+    #maincontainer5 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      overflow: scroll;
+      background-color: transparent;
+      width: 35%;
+      overflow: scroll;
+
+    }
+
+    #maincontainer6 {
+    text-align: center;
+    }
+
+  .circle2 {
+  background-color: transparent;
+  shape-outside: circle(50%);
+  width: 100px;
+  height: 550px;
+  float: left;
+  animation: nudge 3s infinite;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    shape-outside: circle(50%);
+  }
+  50% {
+    shape-outside: circle(25%);
+  }
+}
+
+#mainmaincontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+    .paragraph6 {
+      height: 10px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  a {
+    padding: 10px;
+    color: red;
+  }
+
+    .paragraph4 {
+      text-align: right;
+    }
+
+    .paragraph3 {
+      text-align: center;
+    }
+
+    .paragraph1 {
+      text-align: left;
+    }
+
+    .paragraph2 {
+      text-align: left;
+    }
+
+    p {
+      color: black;
+    }
+
+
+
+
+  }

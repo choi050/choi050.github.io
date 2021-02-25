@@ -1,0 +1,28 @@
+@media screen and (max-width: 480px) {
+  body {
+    background-color: black;
+  }
+
+  .container1 {
+    padding: 10px;
+    width: 45%;
+    height: 100px;
+    background-color: white;
+    overflow: scroll;
+  }
+
+  .container2 {
+    width: 50%;
+    height: 800px;
+    background-color: gray;
+  }
+}
+
+#maincontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2 {
+  background-color: transparent;
+}

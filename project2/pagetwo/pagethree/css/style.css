@@ -1,0 +1,65 @@
+@media screen and (max-width: 480px) {
+  body {
+    background-color: black;
+  }
+
+  h1 {
+    font-size: 18pt;
+  }
+
+  #maincontainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container1 {
+    padding: 10px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    background-color: white;
+    overflow: scroll;
+  }
+
+  .container2 {
+    padding: 10px;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    background-color: white;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container3 {
+    padding: 10px;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    background-color: white;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .paragraph4 {
+    text-align: right;
+  }
+
+  .paragraph3 {
+    text-align: center;
+  }
+
+  .paragraph1 {
+    text-align: left;
+  }
+
+  .paragraph2 {
+    text-align: left;
+  }
+
+
+
+
+}
