@@ -14,7 +14,8 @@
     text-align: center;
     color: pink;
     animation-name: example1;
-    animation-duration: 6s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
   }
 
   @keyframes example1 {
@@ -99,12 +100,14 @@ p {
   body {
     background-color: brown;
     animation-name: example2;
-    animation-duration: 6s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
   }
 
   @keyframes example2 {
     0%   {background-color: brown;}
-    100% {background-color: blue;}
+    50% {background-color: navy;}
+    100%   {background-color: brown;}
   }
 
   @keyframes example1 {
@@ -211,7 +214,8 @@ p {
     color: pink;
     font-size: 72pt;
     animation-name: example3;
-    animation-duration: 6s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
   }
 
   @keyframes example3 {
