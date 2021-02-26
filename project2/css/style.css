@@ -24,6 +24,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  #maincontainer3 {
+    display: none;
+  }
+
   body {
     background-color: black;
   }
@@ -71,13 +75,14 @@
   }
 
   a {
-    color: aqua;
+    color: orange;
     font-family: 'steps-monomono_thin';
     font-size: 14pt;
   }
 
   ::-webkit-scrollbar {
       width: 10px;
+      -webkit-appearance: none;
   }
 
   ::-webkit-scrollbar-track {
@@ -89,6 +94,7 @@
     border: 1px solid white;
     background-color: #05E89D;
     border-radius: 10px;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
   }
 
 
