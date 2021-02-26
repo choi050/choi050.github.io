@@ -36,6 +36,7 @@
     overflow: scroll;
     overflow-y: auto;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: auto
   }
 
   .container2 {
@@ -90,6 +91,39 @@
     border-radius: 10px;
   }
 
+
+
+}
+
+@media screen and (min-width: 568px) {
+
+  h1 {
+    font-family: 'steps-monoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20pt;
+    color: #05E89D;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  #maincontainer {
+    display: none;
+  }
+
+  #maincontainer3 {
+    background: transparent;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
 
 }
