@@ -120,11 +120,11 @@ p:active {
 }
 
 .button:hover {
-background-color: black;
+  background-color: black;
 border: 1px solid #05E89D;
 overflow: visible;
-overflow-y: auto;
-overflow-x: auto;
+overflow-y: visible;
+overflow-x: visible;
 }
 
 .button:active {
@@ -132,8 +132,8 @@ overflow-x: auto;
   transform: translateY(4px);
   border: 1px solid #05E89D;
   overflow: visible;
-  overflow-y: auto;
-  overflow-x: auto;
+  overflow-y: visible;
+  overflow-x: visible;
 }
 
 
