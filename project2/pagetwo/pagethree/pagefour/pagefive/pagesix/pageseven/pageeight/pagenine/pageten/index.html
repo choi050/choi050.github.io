@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project 2</title>
+  <link rel="stylesheet"href="css/style.css"/>
+  <link rel="stylesheet" href="https://use.typekit.net/kja6qol.css">
+</head>
+<body>
+  <div id="maincontainer">
+  <div class="title"><h3>What others have to say about endings and beginnings:</h3></div>
+    <button class="collapsible"><h1>Roland Barthes</h1></button>
+<div class="content">
+  <p>Roland Barthes suggests there are three ways to finish any piece of writing: the ending will have the last word or the ending will be silent or the ending will execute a pirouette, do something unexpectedly incongruent. </p>
+</div>
+<button class="collapsible"><h1>Gaston Bachelard</h1></button>
+<div class="content">
+  <p>Gaston Bachelard says the single most succinct and astonishing thing: We begin in admiration and we end by organizing our disappointment. The moment of admiration is the experience of something unfiltered, vital and fresh—it could also be horror—and the moment of organization is both the onset of disappointment and its dignification; the least we can do is dignify our knowingness, the loss of some vitality through familiarization, by admiring not the thing itself but how we can organize it, think about it.
+
+I am afraid there is no way around this. It is the one try inevitable thing. And if you believe that, then you are conceding that in the beginning was the act, not the word. Bachelard’s sentence simply says this: origins (beginnings) have consequences (endings).</p>
+</div>
+<button class="collapsible"><h1>Cy Twombly</h1></button>
+<div class="content">
+  <p>The painter Cy Twombly quotes John Crowe Ransom, on a scrap of paper: “The image cannot be disposed of a primordial freshness which ideas can never claim.”
+
+Easy and appropriate thing for a painter to say. Cy Twombly uses text in some of his drawings and paintings, usually poetry, usually Dante. Many men and women have written long essays and lectures on the ideas they see expressed in Twombly’s work. </p>
+</div>
+<button class="collapsible"><h1>Barbara Henstein Smith</h1></button>
+<div class="content">
+  <p>Barbara Henstein Smith, in her book Poetic Closure: A Study of How Poems End, says this: “Perhaps all we can say, and even this may be too much, is that varying degrees or states of tension seem to be involved in all our experiences, and that the most gratifying ones are those in which whatever tensions are created are also released. Or, to use another familiar set of terms, an experience is gratifying to the extent that those expectations that are aroused are also fulfilled.”</p>
+</div>
+<div class="hyperlink1"><a href="pageeleven/index.html"><h4>Let's wrap this up so we can start something new.</h4></a></div>
+    </div>
+
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+
+var coll = document.getElementsByClassName("collapsible1");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>
