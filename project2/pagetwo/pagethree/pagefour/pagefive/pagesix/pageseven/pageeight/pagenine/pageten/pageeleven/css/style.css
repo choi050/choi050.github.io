@@ -121,18 +121,19 @@ p:active {
   border: none;
   border-radius: 15px;
   box-shadow: transparent;
-  overflow: scroll;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 .button:hover {
+  height: 1000px;
   background-color: transparent
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 .button:active {
+  height: 1000px;
   overflow: scroll;
   overflow-y: auto;
   overflow-x: hidden;
