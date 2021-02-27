@@ -106,6 +106,7 @@
 p:active {
   font-size: 40pt;
   color: orange;
+
 }
 
 .button {
@@ -120,22 +121,22 @@ p:active {
   border: none;
   border-radius: 15px;
   box-shadow: transparent;
+  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .button:hover {
-  background-color: transparent;
-  background-color: black;
-  overflow: scroll;
+  background-color: transparent
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 .button:active {
-  background-color: transparent;
-  background-color: black;
   overflow: scroll;
   overflow-y: auto;
   overflow-x: hidden;
+  background-color: transparent;
 }
 
   #maincontainer {
