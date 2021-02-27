@@ -90,7 +90,7 @@
   p {
     font-family: 'steps-monomono_thin';
     font-size: 3pt;
-    color: #05E89D;
+    color: black;
     text-align: center;
     -webkit-transition: color 2s, font-size 2s;
       -moz-transition: color 2s, font-size 2s;
@@ -99,62 +99,52 @@
   }
 
   p:hover {
-      font-size: 20pt;
-      color: orange;
+      font-size: 40px;
+      color: #05E89D;
   }
 
 p:active {
-  font-size: 20pt;
-  color: orange;
-
+  font-size: 40px;
+  color: #05E89D;
 }
 
 .button {
-  height: 150px;
-  padding: 15px 25px;
-  font-size: 3pt;
+  padding: 10px;
   text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: transparent;
-  border: none;
-  border-radius: 15px;
-  box-shadow: transparent;
-  overflow: scroll;
-  overflow-y: auto;
-  overflow-x: hidden;
+  background-color: black;
+  border: 1px solid #05E89D;
+  border-radius: 100%;
 }
 
-.button:hover {
-  height: 100px;
-  background-color: transparent
-    overflow: scroll;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
+.button:hover {background-color: black
+border: 1px solid #05E89D;}
 
 .button:active {
-  overflow: scroll;
-  overflow-y: auto;
-  overflow-x: hidden;
-  background-color: transparent;
+  background-color: black;
+  transform: translateY(4px);
+  border: 1px solid #05E89D;
 }
 
+
   #maincontainer {
-    margin: 1em;
+    height: 100%;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    align-self: center;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
 .container1 {
   padding: 10px;
   width: 50%;
   height: 150px;
-  overflow: scroll;
   background-color: black;
   overflow: scroll;
   overflow-y: auto;
@@ -242,6 +232,7 @@ p:active {
 .hyperlink {
   width: 300px;
   text-align: center;
+  padding: 10px;
 }
 
   #maincontainer3 {
