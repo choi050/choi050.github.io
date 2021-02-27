@@ -98,12 +98,10 @@
            transition: color 2s, font-size 2s;
   }
 
-  p:hover {
-      font-size: 40px;
-      color: orange;
-  }
-
-
+  p:hover, p:active{
+    font-size: 40px;
+    color: orange;
+   }
 
   #maincontainer {
     margin: 1em;
