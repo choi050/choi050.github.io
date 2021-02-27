@@ -99,12 +99,12 @@
   }
 
   p:hover {
-      font-size: 40pt;
+      font-size: 20pt;
       color: orange;
   }
 
 p:active {
-  font-size: 40pt;
+  font-size: 20pt;
   color: orange;
 
 }
@@ -121,19 +121,20 @@ p:active {
   border: none;
   border-radius: 15px;
   box-shadow: transparent;
+  overflow: scroll;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 .button:hover {
-  height: 1000px;
+  height: 100px;
   background-color: transparent
+    overflow: scroll;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 .button:active {
-  height: 1000px;
   overflow: scroll;
   overflow-y: auto;
   overflow-x: hidden;
