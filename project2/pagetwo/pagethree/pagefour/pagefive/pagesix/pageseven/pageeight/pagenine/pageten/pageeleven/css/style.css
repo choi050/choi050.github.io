@@ -99,12 +99,12 @@
   }
 
   p:hover {
-      font-size: 40pt;
+      font-size: 20pt;
       color: orange;
   }
 
 p:active {
-  font-size: 40pt;
+  font-size: 20pt;
   color: orange;
 }
 
@@ -122,10 +122,20 @@ p:active {
   box-shadow: transparent;
 }
 
-.button:hover {background-color: transparent}
+.button:hover {
+  background-color: transparent;
+  background-color: black;
+  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
 .button:active {
   background-color: transparent;
+  background-color: black;
+  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
   #maincontainer {
