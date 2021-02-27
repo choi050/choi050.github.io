@@ -99,34 +99,33 @@
   }
 
   p:hover {
-      font-size: 40px;
+      font-size: 40pt;
       color: orange;
   }
 
 p:active {
-  font-size: 40px;
+  font-size: 40pt;
   color: orange;
 }
 
 .button {
+  height: 150px;
   padding: 15px 25px;
-  font-size: 24px;
+  font-size: 3pt;
   text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: transparent;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  box-shadow: transparent;
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: transparent}
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  background-color: transparent;
 }
 
   #maincontainer {
