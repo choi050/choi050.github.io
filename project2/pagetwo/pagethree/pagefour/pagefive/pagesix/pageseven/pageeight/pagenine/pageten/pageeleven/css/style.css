@@ -125,6 +125,7 @@ p:active {
   overflow: scroll;
   overflow-y: visible;
   overflow-x: hidden;
+  font-size: 20pt;
 }
 
 .button:active {
@@ -134,6 +135,7 @@ p:active {
   overflow: scroll;
   overflow-y: visible;
   overflow-x: hidden;
+  font-size: 20pt;
 }
 
   #maincontainer {
