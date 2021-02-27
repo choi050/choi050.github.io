@@ -123,7 +123,7 @@ p:active {
   background-color: transparent;
   background-color: black;
   overflow: scroll;
-  overflow-y: auto;
+  overflow-y: visible;
   overflow-x: hidden;
 }
 
@@ -132,7 +132,7 @@ p:active {
   background-color: transparent;
   background-color: black;
   overflow: scroll;
-  overflow-y: auto;
+  overflow-y: visible;
   overflow-x: hidden;
 }
 
