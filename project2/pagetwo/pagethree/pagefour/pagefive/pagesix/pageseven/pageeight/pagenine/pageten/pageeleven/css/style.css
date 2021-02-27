@@ -109,13 +109,13 @@ p:active {
 }
 
 .button {
-  height: 150px;
-  padding: 10px;
+  height: 500px;
   font-size: 3pt;
   text-align: center;
   cursor: pointer;
   outline: none;
   background-color: transparent;
+  display: flex;
 }
 
 .button:hover {
@@ -123,9 +123,8 @@ p:active {
   background-color: transparent;
   background-color: black;
   overflow: scroll;
-  overflow-y: visible;
+  overflow-y: auto;
   overflow-x: hidden;
-  font-size: 20pt;
 }
 
 .button:active {
@@ -133,9 +132,8 @@ p:active {
   background-color: transparent;
   background-color: black;
   overflow: scroll;
-  overflow-y: visible;
+  overflow-y: auto;
   overflow-x: hidden;
-  font-size: 20pt;
 }
 
   #maincontainer {
