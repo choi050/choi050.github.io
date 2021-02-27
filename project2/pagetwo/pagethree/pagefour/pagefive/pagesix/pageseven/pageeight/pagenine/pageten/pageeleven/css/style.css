@@ -116,7 +116,7 @@ p:active {
   color: #fff;
   background-color: black;
   border: 1px solid #05E89D;
-  border-radius: 100%;
+  border-radius: 10px;
 }
 
 .button:hover {
