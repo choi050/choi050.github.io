@@ -119,13 +119,21 @@ p:active {
   border-radius: 100%;
 }
 
-.button:hover {background-color: black
-border: 1px solid #05E89D;}
+.button:hover {
+background-color: black;
+border: 1px solid #05E89D;
+overflow: visible;
+overflow-y: auto;
+overflow-x: auto;
+}
 
 .button:active {
   background-color: black;
   transform: translateY(4px);
   border: 1px solid #05E89D;
+  overflow: visible;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
 
