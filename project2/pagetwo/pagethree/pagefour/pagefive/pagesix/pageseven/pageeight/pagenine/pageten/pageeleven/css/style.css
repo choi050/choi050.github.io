@@ -99,27 +99,30 @@
   }
 
   p:hover {
-      font-size: 20pt;
+      font-size: 40pt;
       color: orange;
   }
 
 p:active {
-  font-size: 20pt;
+  font-size: 40pt;
   color: orange;
 }
 
 .button {
-  height: 500px;
+  height: 150px;
+  padding: 15px 25px;
   font-size: 3pt;
   text-align: center;
   cursor: pointer;
   outline: none;
+  color: #fff;
   background-color: transparent;
-  display: flex;
+  border: none;
+  border-radius: 15px;
+  box-shadow: transparent;
 }
 
 .button:hover {
-  height: 1000px;
   background-color: transparent;
   background-color: black;
   overflow: scroll;
@@ -128,7 +131,6 @@ p:active {
 }
 
 .button:active {
-  height: 1000px;
   background-color: transparent;
   background-color: black;
   overflow: scroll;
