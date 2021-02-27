@@ -119,7 +119,7 @@ p:active {
 }
 
 .button:hover {
-  height: 100%;
+  height: 1000px;
   background-color: transparent;
   background-color: black;
   overflow: scroll;
@@ -128,7 +128,7 @@ p:active {
 }
 
 .button:active {
-  height: 100%;
+  height: 1000px;
   background-color: transparent;
   background-color: black;
   overflow: scroll;
