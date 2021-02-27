@@ -98,12 +98,16 @@
            transition: color 2s, font-size 2s;
   }
 
-   @media(hover: hover) and (pointer: fine) {
-    p:hover {
+  p:hover {
       font-size: 40px;
       color: orange;
-    }
+  }
+
+p:active {
+  font-size: 40px;
+  color: orange;
 }
+
 
   #maincontainer {
     margin: 1em;
