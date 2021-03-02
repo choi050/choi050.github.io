@@ -131,5 +131,81 @@
     justify-content: space-around;
   }
 
+}
 
+@media screen and (min-width: 769px) {
+  body {
+    background-color: black;
+  }
+
+  h1 {
+    font-family: 'steps-monoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30pt;
+    color: #05E89D;
+  }
+
+  p {
+    font-family: 'steps-monomono_thin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20pt;
+    color: #05E89D;
+  }
+
+  a {
+    color: orange;
+    font-family: 'steps-monomono_thin';
+    font-size: 20pt;
+  }
+
+
+  .container1 {
+    padding: 10px;
+    width: 50%;
+    height: 80px;
+    overflow: scroll;
+    background-color: transparent;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .container2 {
+    padding: 10px;
+    width: 50%;
+    height: 180px;
+    display: flex;
+    background-color: transparent;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  #maincontainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #maincontainer3 {
+    display: none;
+  }
+
+  ::-webkit-scrollbar {
+      width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+      border: 1px solid white;
+      border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border: 1px solid white;
+    background-color: #05E89D;
+    border-radius: 10px;
+  }
 }

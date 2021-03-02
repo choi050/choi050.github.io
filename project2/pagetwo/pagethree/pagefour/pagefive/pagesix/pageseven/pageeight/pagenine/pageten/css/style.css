@@ -22,7 +22,7 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 823px) {
   .collapsible {
     color: black;
     background-color: black;
@@ -299,3 +299,234 @@
 
 
   }
+
+    @media screen and (min-width: 824px) {
+      .collapsible {
+        color: black;
+        background-color: black;
+        cursor: pointer;
+        padding: 10px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        border-top: 2px solid #05E89D;
+      border-left: 2px solid #05E89D;
+      border-right: 2px solid #05E89D;
+      }
+
+      .active, .collapsible:hover {
+        background-color: blue;
+      }
+
+      .content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: transparent;
+      border-bottom: 2px solid #05E89D;
+      border-left: 2px solid #05E89D;
+      border-right: 2px solid #05E89D;
+      padding-left: 10px;
+      padding-right: 10px;
+      }
+
+
+      body {
+        background-color: black;
+      }
+
+      h1 {
+        font-family: 'steps-monoregular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30pt;
+        color: #05E89D;
+      }
+
+      h2 {
+        font-family: 'steps-monoregular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20pt;
+        color: #05E89D;
+      }
+
+      h3 {
+        font-family: 'steps-monoregular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30pt;
+        color: #05E89D;
+      }
+
+      h4 {
+        font-family: 'steps-monomono_thin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20pt;
+        color: orange;
+        text-align: center;
+      }
+
+      a {
+        color: orange;
+        font-family: 'steps-monomono_thin';
+        font-size: 14pt;
+      }
+
+      p {
+        font-family: 'steps-monomono_thin';
+        color: #05E89D;
+        font-size: 20pt;
+      }
+
+
+      #maincontainer {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: space-around;
+      }
+
+      .container1 {
+      padding: 10px;
+      width: 50%;
+      height: 100px;
+      overflow: scroll;
+      background-color: black;
+      overflow: scroll;
+      overflow-y: auto;
+      overflow-x: hidden;
+      }
+
+      .container2 {
+      padding: 10px;
+      width: 50%;
+      height: 200px;
+      display: flex;
+      background-color: black;
+      overflow: scroll;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      overflow-x: hidden;
+      }
+
+      .container3 {
+      padding: 10px;
+      width: 50%;
+      height: 300px;
+      display: flex;
+      background-color: black;
+      overflow: scroll;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      overflow-x: hidden;
+      }
+
+      .container4 {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      background-color: black;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      }
+
+      .container5 {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      background-color: black;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      }
+
+      .container6 {
+      padding: 10px;
+      margin-top: 10px;
+      width: 46%;
+      height: 300px;
+      overflow: scroll;
+      background-color: black;
+      overflow: scroll;
+      overflow-y: auto;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      }
+
+      .container7 {
+      padding: 10px;
+      margin-top: 10px;
+      width: 46%;
+      height: 300px;
+      overflow: scroll;
+      background-color: black;
+      overflow: scroll;
+      overflow-y: auto;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      }
+
+
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      ::-webkit-scrollbar-track {
+        border: 1px solid white;
+        border-radius: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+      border: 1px solid white;
+      background-color: #05E89D;
+      border-radius: 10px;
+      }
+
+      .paragraph4 {
+        text-align: right;
+      }
+
+      .paragraph3 {
+        text-align: center;
+      }
+
+      .paragraph1 {
+        text-align: left;
+      }
+
+      .paragraph2 {
+        text-align: left;
+      }
+
+      #maincontainer3 {
+        display: none;
+      }
+
+      #maincontainer4 {
+        display: none;
+      }
+
+      #maincontainer5 {
+        display: none;
+      }
+
+      #maincontainer6 {
+        display: none;
+      }
+
+      .title {
+        padding: 10px;
+      }
+    }
