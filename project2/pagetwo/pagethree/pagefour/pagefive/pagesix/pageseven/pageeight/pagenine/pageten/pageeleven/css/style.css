@@ -23,6 +23,10 @@
 
 
 @media screen and (max-width: 480px) {
+
+  .title {
+    display: none;
+  }
   .collapsible {
     color: black;
     background-color: black;
