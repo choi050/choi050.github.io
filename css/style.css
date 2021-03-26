@@ -1,5 +1,5 @@
 body {
-  background: blue;
+  background: white;
   margin: 50px;
   height: 500px;
 }
@@ -9,6 +9,14 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 40pt;
+  color: white;
+}
+
+h2 {
+  font-family: lores-12, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18pt;
   color: white;
 }
 
@@ -30,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: pink;
+  color: red;
 }
 
 li {
