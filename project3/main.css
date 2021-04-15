@@ -1,0 +1,1276 @@
+/* CSS files add styling rules to your content */
+@media screen and (max-width: 567px) {
+ .buttons {
+   display: block;
+ }
+
+ body {
+    background-color: white;
+  }
+
+  h1 {
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 28pt;
+  }
+
+  p {
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 10pt;
+    text-align: right;
+  }
+
+  .headercontainer {
+    background-color: black;
+    height: 60px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #buttoncontainer1 {
+    display: none;
+  }
+
+  #buttoncontainer2 {
+    display: none;
+  }
+  #buttoncontainer3 {
+    display: none;
+  }
+  .button1 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-19.png?v=1617909183965);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width: 25%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  a {
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 12pt;
+    text-decoration: none;
+    color: transparent;
+  }
+
+  .button1:hover {
+    font-family: helvetica;
+    background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button2 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-20.png?v=1617909184794);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button2:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button3 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-21.png?v=1617909184160);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button3:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button4 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-22.png?v=1617909184020);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button4:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button5 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-23.png?v=1617909183995);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button5:hover {
+    background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button6 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-24.png?v=1617909376161);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button6:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button7 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-30.png?v=1617910777501);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button7:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button8 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-29.png?v=1617910779855);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button8:hover {
+    background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button9 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-28.png?v=1617910786764);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button9:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button10 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-27.png?v=1617910786731);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button10:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button11 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-25.png?v=1617910787011);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button11:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button12 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-26.png?v=1617910786921);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button12:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button13 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-31.png?v=1617912518093);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button13:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button14 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-32.png?v=1617912517927);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button14:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button15 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-33.png?v=1617912518161);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button15:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button16 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-34.png?v=1617912517951);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button16:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button17 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-35.png?v=1617912517862);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button17:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button18 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-36.png?v=1617912517862);
+    background-size: cover;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      background-color: white;
+      height: 100%;
+      width:40%;
+      cursor:pointer;
+      line-height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button18:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+#smallbuttoncontainer1 {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  text-align: center;
+  margin: auto;
+}
+
+.btn1 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-19.png?v=1617909183965);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn2{
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-20.png?v=1617909184794);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn3 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-21.png?v=1617909184160);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn4 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-22.png?v=1617909184020);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn5 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-23.png?v=1617909183995);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn6 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-24.png?v=1617909376161);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn7 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-30.png?v=1617910777501);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn8 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-29.png?v=1617910779855);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn9 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-28.png?v=1617910786764);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn10 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-27.png?v=1617910786731);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn11 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-25.png?v=1617910787011);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn12 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-26.png?v=1617910786921);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn13 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-31.png?v=1617912518093);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn14 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-32.png?v=1617912517927);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn15 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-33.png?v=1617912518161);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn16 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-34.png?v=1617912517951);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn17 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-35.png?v=1617912517862);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn18 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-36.png?v=1617912517862);
+  background-size: cover;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 33.6vw;
+  height: 33.6vw;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: none;
+}
+
+.header-mobile {
+  display: block;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-mobile {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+.description {
+  display: none;
+}
+
+.description-mobile p {
+  font-size: 12pt;
+  text-align: right;
+  color: white;
+  animation-name: colorchange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.header-mobile h1 {
+  color: white;
+  font-size: 24pt;
+}
+
+@keyframes colorchange {
+  0%   {color: white;}
+  50%   {color: black;}
+  60%   {color: white;}
+  70%   {color: black;}
+  100% {color: white;}
+}
+
+
+
+}
+
+
+
+@media screen and (min-width: 568px) {
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 72pt;
+}
+
+p {
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 12pt;
+  text-align: right;
+}
+
+.headercontainer {
+  height: 100px;
+  border: 2px solid black;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#buttoncontainer1 {
+  height: 235px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  text-align: center;
+  margin: auto;
+}
+
+#buttoncontainer2 {
+  height: 235px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  text-align: center;
+  margin: auto;
+}
+#buttoncontainer3 {
+  height: 235px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  text-align: center;
+  margin: auto;
+}
+.button1 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-19.png?v=1617909183965);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+  font-family: helvetica;
+  text-decoration: none;
+  color: transparent;
+}
+
+.button1:hover {
+  background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button2 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-20.png?v=1617909184794);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button2:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button3 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-21.png?v=1617909184160);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button3:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button4 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-22.png?v=1617909184020);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button4:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button5 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-23.png?v=1617909183995);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button5:hover {
+  background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button6 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-24.png?v=1617909376161);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button6:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button7 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-30.png?v=1617910777501);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button7:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button8 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-29.png?v=1617910779855);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button8:hover {
+  background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button9 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-28.png?v=1617910786764);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button9:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button10 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-27.png?v=1617910786731);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button10:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button11 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-25.png?v=1617910787011);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button11:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button12 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-26.png?v=1617910786921);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button12:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button13 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-31.png?v=1617912518093);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button13:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button14 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-32.png?v=1617912517927);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button14:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button15 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-33.png?v=1617912518161);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button15:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button16 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-34.png?v=1617912517951);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button16:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button17 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-35.png?v=1617912517862);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button17:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button18 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-36.png?v=1617912517862);
+  background-size: cover;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 100%;
+    width:40%;
+    cursor:pointer;
+    line-height: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.button18:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.buttons {
+  display: none;
+}
+
+.description p {
+  font-size: 12pt;
+  text-align: right;
+  color: black;
+  animation-name: colorchange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+  0%   {color: black;}
+  50%   {color: white;}
+  60%   {color: black;}
+  70%   {color: white;}
+  100% {color: black;}
+}
+
+.header {
+  display: block;
+}
+
+.header-mobile {
+  display: none;
+}
+
+.description-mobile {
+  display: none;
+}
+
+.description {
+  display: block;
+}
+
+}

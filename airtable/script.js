@@ -1,4 +1,4 @@
-// console.log ("albumcovers");
+console.log ("albumcovers");
 
 //load the airtable library, call it "Airtable";
 var Airtable = require("airtable");
@@ -97,6 +97,7 @@ function showAlbums() {
     albumCover.classList.add("album-cover");
     albumCover.src = album.fields.cover[0].url;
     albumContainer.append(albumCover);
+    console.log("albumCover()")
 
     // add addEventListener
     // when user clicks on album container it will show description + image

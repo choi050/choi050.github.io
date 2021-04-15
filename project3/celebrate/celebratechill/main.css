@@ -1,0 +1,1351 @@
+/* CSS files add styling rules to your content */
+@media screen and (max-width: 567px) {
+  body {
+    font-family: helvetica, arial, sans-serif;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  h1 {
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 72pt;
+  }
+
+  p {
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 10pt;
+    text-align: left;
+  }
+
+  .headercontainer {
+    border: 2px solid black;
+    height: 60px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description-mobile {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .description-mobile p {
+    padding-top: 20px;
+    font-size: 8pt;
+    text-align: center;
+    color: black;
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .header-mobile h1 {
+    color: black;
+    font-size: 36pt;
+  }
+
+  @keyframes colorchange {
+    0%   {color: black;}
+    50%   {color: white;}
+    60%   {color: black;}
+    70%   {color: white;}
+    100% {color: black;}
+  }
+
+  #buttoncontainer1 {
+    height: 235px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    text-align: center;
+    margin: auto;
+  }
+
+  #buttoncontainer2 {
+    height: 235px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    text-align: center;
+    margin: auto;
+  }
+  #buttoncontainer3 {
+    height: 235px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    text-align: center;
+    margin: auto;
+  }
+
+  #menubar {
+    background-color: white;
+    height: 100%;
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .button1 {
+      background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-19.png?v=1617909183965);
+      background-size: contain;
+      background-repeat: no-repeat;
+      border: 2px inset black;
+      height: 76px;
+      width: 80px;
+      cursor:pointer;
+      line-height: 82px;
+      display: flex;
+      justify-content: center;
+      align-self: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: transparent;
+  }
+
+  .button1:hover {
+    background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button2 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-20.png?v=1617909184794);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button2:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button3 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-21.png?v=1617909184160);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button3:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button4 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-22.png?v=1617909184020);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button4:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button5 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-23.png?v=1617909183995);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button5:hover {
+    background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button6 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-24.png?v=1617909376161);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button6:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button7 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-30.png?v=1617910777501);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 75px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button7:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button8 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-29.png?v=1617910779855);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 75px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button8:hover {
+    background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button9 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-28.png?v=1617910786764);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 75px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button9:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button10 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-27.png?v=1617910786731);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button10:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button11 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-25.png?v=1617910787011);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button11:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button12 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-26.png?v=1617910786921);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button12:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button13 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-31.png?v=1617912518093);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button13:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button14 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-32.png?v=1617912517927);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 75px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button14:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button15 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-33.png?v=1617912518161);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 75px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button15:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button16 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-34.png?v=1617912517951);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 75px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button16:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button17 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-35.png?v=1617912517862);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button17:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+  .button18 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-36.png?v=1617912517862);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px inset black;
+    height: 76px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button18:hover {
+      background-image: none;
+    background-color: black;
+    color:white;
+  }
+
+.question {
+  display: none;
+}
+
+  .question-mobile {
+    height: 76px;
+    width: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .question-mobile h2 {
+    color: white;
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 10pt;
+    align: left;
+  }
+
+  .question h2 {
+    color: white;
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 10pt;
+    align: left;
+  }
+
+  .question-mobile h2 {
+    color: white;
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 12pt;
+    text-align: center;
+    transform: rotate(45deg);
+  }
+
+  .button19 {
+    border: 2px solid black;
+    background-color: white;
+    width: 80px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button19 h2 {
+    color: black;
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 12pt;
+    align: left;
+  }
+
+  .button19:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .button19:hover h2 {
+    color:white;
+  }
+
+  .button20 {
+    border: 2px solid black;
+    background-color: white;
+    width: 80px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button20 h2 {
+    color: black;
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 12pt;
+    align: left;
+  }
+
+  .button20:hover {
+    background-color: black;
+    color:white;
+  }
+
+  .button20:hover h2 {
+    color:white;
+  }
+
+  .button21 {
+    border: 2px solid black;
+    background-color: white;
+    width: 80px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button21 h2 {
+    color: black;
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 12pt;
+    align: left;
+  }
+
+  .button21:hover {
+    background-color: black;
+    color:white;
+  }
+
+  .button21:hover h2 {
+    color:white;
+  }
+
+  .button22 {
+    display: none;
+  }
+
+  .button23 {
+    border: 2px solid black;
+    background-color: white;
+    width: 80px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button23 h2 {
+    color: black;
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 12pt;
+    align: left;
+  }
+
+  .button23:hover {
+    background-color: black;
+    color:white;
+  }
+
+  .button23:hover h2 {
+    color:white;
+  }
+
+  img {
+    border-radius: 50px;
+  }
+
+  .fontcontainer {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .font-container {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mainbodycontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .font-sample {
+    max-width: 98%;
+    padding: 5px;
+  }
+
+  .font-title {
+    display: none;
+  }
+
+  .font-title.active {
+    display: block;
+    color: white;
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 12pt;
+  }
+
+  .font-code {
+    display: none;
+  }
+
+  .font-code.active {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 15px;
+    display: block;
+  }
+
+  .font-link {
+    display: none;
+  }
+
+  .font-link.active {
+    height: 46px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description p {
+    font-size: 12pt;
+    text-align: right;
+    color: black;
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes colorchange {
+    0%   {color: black;}
+    50%   {color: white;}
+    60%   {color: black;}
+    70%   {color: white;}
+    100% {color: black;}
+  }
+}
+
+@media screen and (min-width: 568px) {
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 72pt;
+}
+
+p {
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 10pt;
+  text-align: left;
+}
+
+.headercontainer {
+  height: 100px;
+  border: 2px solid black;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#buttoncontainer1 {
+  height: 235px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  text-align: center;
+  margin: auto;
+}
+
+#buttoncontainer2 {
+  height: 235px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  text-align: center;
+  margin: auto;
+}
+#buttoncontainer3 {
+  height: 235px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  text-align: center;
+  margin: auto;
+}
+
+#menubar {
+  background-color: red;
+  height: 100%;
+  width: 252px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button1 {
+    background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-19.png?v=1617909183965);
+    background-size: contain;
+    border: 2px inset black;
+    height: 80px;
+    width: 80px;
+    cursor:pointer;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: transparent;
+}
+
+.button1:hover {
+  background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button2 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-20.png?v=1617909184794);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button2:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button3 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-21.png?v=1617909184160);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button3:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button4 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-22.png?v=1617909184020);
+  background-size: cover;
+  border: 2px inset black;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button4:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button5 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-23.png?v=1617909183995);
+  background-size: cover;
+  border: 2px inset black;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button5:hover {
+  background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button6 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-24.png?v=1617909376161);
+  background-size: cover;
+  border: 2px inset black;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button6:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button7 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-30.png?v=1617910777501);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button7:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button8 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-29.png?v=1617910779855);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button8:hover {
+  background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button9 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-28.png?v=1617910786764);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button9:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button10 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-27.png?v=1617910786731);
+  background-size: cover;
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button10:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button11 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-25.png?v=1617910787011);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button11:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button12 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-26.png?v=1617910786921);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button12:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button13 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-31.png?v=1617912518093);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button13:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button14 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-32.png?v=1617912517927);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button14:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button15 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-33.png?v=1617912518161);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button15:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button16 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-34.png?v=1617912517951);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button16:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button17 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-35.png?v=1617912517862);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button17:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.button18 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ficons-36.png?v=1617912517862);
+  background-size: contain;
+  border: 2px inset black;
+  height: 80px;
+  width: 80px;
+  cursor:pointer;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button18:hover {
+    background-image: none;
+  background-color: black;
+  color:white;
+}
+
+.question {
+  width: 252px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question h2 {
+  color: white;
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 12pt;
+  align: left;
+}
+
+.button19 {
+  border: 2px inset black;
+  width: 252px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button19 h2 {
+  color: black;
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 12pt;
+  align: left;
+}
+
+.button19:hover {
+  background-color: black;
+  color:white;
+}
+
+.button19:hover h2 {
+  color:white;
+}
+
+.button20 {
+  border: 2px inset black;
+  width: 252px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button20 h2 {
+  color: black;
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 12pt;
+  align: left;
+}
+
+.button20:hover {
+  background-color: black;
+  color:white;
+}
+
+.button20:hover h2 {
+  color:white;
+}
+
+.button21 {
+  border: 2px inset black;
+  width: 252px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button21 h2 {
+  color: black;
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 12pt;
+  align: left;
+}
+
+.button21:hover {
+  background-color: black;
+  color:white;
+}
+
+.button21:hover h2 {
+  color:white;
+}
+
+.button22 {
+  border-top: 2px inset black;
+  border-left: 2px inset black;
+  border-right: 2px inset black;
+  border-bottom: 4px inset black;
+  width: 252px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button22 h2 {
+  color: black;
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 12pt;
+  align: left;
+}
+
+.button22:hover {
+  background-color: black;
+  color: white;
+}
+
+.button22:hover h2 {
+  color: white;
+}
+
+.fontcontainer {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 10;
+}
+
+
+.font-container {
+  background-color: black;
+  padding: 6.8px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .font-container.active {
+  background-color: black;
+} */
+
+.mainbodycontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.font-sample {
+  padding-top: 10px;
+  max-width: 380px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.font-title {
+  display: none;
+}
+
+.font-title.active {
+  display: block;
+  color: white;
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 12pt;
+  align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.font-code {
+  display: none;
+}
+
+.font-code.active {
+  display: block;
+  color: white;
+}
+
+.font-link {
+  display: none;
+}
+
+.font-link.active {
+  display: block;
+  color: white;
+}
+
+.description p {
+  font-size: 12pt;
+  text-align: right;
+  color: black;
+  animation-name: colorchange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+  0%   {color: black;}
+  50%   {color: white;}
+  60%   {color: black;}
+  70%   {color: white;}
+  100% {color: black;}
+}
+
+.question-mobile {
+  display: none;
+}
+
+.header-mobile {
+  display: none;
+}
+
+.description-mobile {
+  display: none;
+}
+
+.button23 {
+  display: none;
+}
+}
