@@ -643,7 +643,7 @@
   .font-container {
     background-color: black;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -694,6 +694,7 @@
     height: 46px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
     color: white;
     display: block;
     display: flex;
