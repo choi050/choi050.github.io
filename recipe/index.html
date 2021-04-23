@@ -4,15 +4,122 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project 3</title>
-    <link rel="stylesheet" type="text/css" href="./reset.css">
     <link rel="stylesheet" type="text/css" href="./main.css">
-    <script type="text/javascript" src="./airtable.browser.js" defer></script>
-    <script type="text/javascript" src="./script.js" defer></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="container">
-    <h1>recipes</h1>
+  <div id="everything">
+  <h1>Recipes</h1>
+  <div id="recipe1">
+  <h2>Caesar Salad</h2>
+  <fieldset>
+    <legend>Ingredients Checklist: </legend>
+    <label for="checkbox-1">Greens</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">Croutons</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">Caesar Dressing</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+    <label for="checkbox-4">Parmesan</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+  </fieldset>
+  <div class="instructions1">
+    <p> 1) Put everything together in a big bowl<br> 2) click button to shake the bowl and mix everything together </p>
+    <button id="button1">.・゜゜・Greens +*<br>:༅｡ Croutons ༅｡<br>⭑･ﾟﾟ･* Dressing ･ﾟﾟ･⭑<br>ₒ ु Parmesan⋆:°*</button>
   </div>
+  </div>
+
+  <div id="recipe2">
+  <h2>Ham & Cheese Sandwich</h2>
+  <fieldset>
+    <legend>Ingredients Checklist: </legend>
+    <label for="checkbox-1">Bread</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">Ham</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">Cheese</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+    <label for="checkbox-4">Butter</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+  </fieldset>
+  <div class="instructions2">
+    <p>Drag icons below to stack everything together in this order: <br>
+    1) Bread (bottom)<br>
+    2) Butter<br>
+    3) Ham<br>
+    4) Cheese<br>
+    5) Butter<br>
+    6) Bread (top)
+  </p>
+  </div>
+  <div class="draggablecontainer">
+  <div id="draggable1" class="ui-widget-content">
+  <p>Bread (top)</p>
+  </div>
+  <div id="draggable2" class="ui-widget-content">
+  <p>Bread (bottom)</p>
+  </div>
+  <div id="draggable3" class="ui-widget-content">
+  <p>Butter</p>
+  </div>
+  <div id="draggable4" class="ui-widget-content">
+  <p>Butter</p>
+  </div>
+  <div id="draggable5" class="ui-widget-content">
+  <p>Ham</p>
+  </div>
+  <div id="draggable6" class="ui-widget-content">
+  <p>Cheese</p>
+  </div>
+  </div>
+  </div>
+
+
+  <div id="recipe3">
+  <h2>Ice Lemon Tea</h2>
+  <fieldset>
+    <legend>Ingredients Checklist: </legend>
+    <label for="checkbox-1">Lemon Slices</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">Black Tea</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">Sugar</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+    <label for="checkbox-4">Hot Water</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+    <label for="checkbox-5">Ice</label>
+    <input type="checkbox" name="checkbox-5" id="checkbox-5">
+  </fieldset>
+  <div class="instructions3">
+    <p>Drag and put all the content inside glass cup<br>
+      1) Boil water and make a cup of black tea<br>
+      2) Put a few lemon slices and sugar into black tea while hot<br>
+      3) Pour mix into a tall glass full of ice
+    </p>
+  </div>
+    <div class="draggablecontainer2">
+      <div class="tallglass"><p>This is the glass</p></div>
+      <div id="draggable7" class="ui-widget-content">
+      <p>Black Tea</p>
+      </div>
+      <div id="draggable8" class="ui-widget-content">
+      <p>Lemon</p>
+      </div>
+      <div id="draggable9" class="ui-widget-content">
+      <p>Sugar</p>
+      </div>
+      <div id="draggable10" class="ui-widget-content">
+      <p>Ice</p>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
