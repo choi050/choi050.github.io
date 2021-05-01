@@ -1,0 +1,402 @@
+@media screen and (max-width: 567px) {
+
+#headercontainer {
+  background-color: white;
+  width: 100%;
+  position:-webkit-sticky;
+  position:sticky;
+  top:0;
+}
+
+h1 {
+  font-family: custard, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60pt;
+  text-align: center;
+  color: yellow;
+  -webkit-text-stroke-width: 2px;
+ -webkit-text-stroke-color: black;
+ line-height: 0px;
+  height: 0px;
+  padding-bottom: 5px;
+}
+
+h2 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  text-align: center;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+#btn1 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fcountryside.jpeg?v=1619817843223);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+ height: 300px;
+ width: 300px;
+ border-radius: 10%;
+ border: 1px solid black;
+ margin: 20px;
+}
+
+#countdown1 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  text-align: center;
+}
+
+#activate {
+  display: none;
+}
+
+#activate a {
+  color: red;
+}
+
+#activate.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* button 2 seaside styling from here*/
+#btn2 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2F127-1277401_spongebob-island.jpeg?v=1619825334528);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown2 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  text-align: center;
+}
+
+#activate2 {
+  display: none;
+}
+
+#activate2 a {
+  color: red;
+}
+
+#activate2.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* button 3 cave styling from here*/
+#btn3 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fcave.jpeg?v=1619827259908);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown3 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  text-align: center;
+}
+
+#activate3 {
+  display: none;
+}
+
+#activate3 a {
+  color: red;
+}
+
+#activate3.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* forest button */
+#btn4 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fforest.jpeg?v=1619826895207);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown4 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  text-align: center;
+}
+
+#activate4 {
+  display: none;
+}
+
+#activate4 a {
+  color: red;
+}
+
+#activate4.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* kitchen button */
+#btn5 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fkitchen.png?v=1619830243859);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown5 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  text-align: center;
+}
+
+#activate5 {
+  display: none;
+}
+
+#activate5 a {
+  color: red;
+}
+
+#activate5.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* classroom button */
+#btn6 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclassroom.jpeg?v=1619830240988);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown6 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  text-align: center;
+}
+
+#activate6 {
+  display: none;
+}
+
+#activate6 a {
+  color: red;
+}
+
+#activate6.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* classroom button */
+#btn7 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Foffice.jpeg?v=1619831085063);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown7 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  text-align: center;
+}
+
+#activate7 {
+  display: none;
+}
+
+#activate7 a {
+  color: red;
+}
+
+#activate7.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* ballroom button */
+#btn8 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fballroom.jpeg?v=1619830241539);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown8 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  text-align: center;
+}
+
+#activate8 {
+  display: none;
+}
+
+#activate8 a {
+  color: red;
+}
+
+#activate8.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* jazz bar button */
+#btn9 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fbarr.jpeg?v=1619830471399);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown9 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  text-align: center;
+}
+
+#activate9 {
+  display: none;
+}
+
+#activate9 a {
+  color: red;
+}
+
+#activate9.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+}
