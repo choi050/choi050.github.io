@@ -82,7 +82,9 @@ button:active {
 
 @keyframes led {
   0% {background-color: #478eff;}
-  90% {background-color: radial-gradient(white 1%, lime 9%, #478eff 90%);}
+  60% {background-color: lime;}
+  70% {background-color: #478eff;}
+  80% {background-color: lime;}
   100% {background-color: #478eff;}
 }
 

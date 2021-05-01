@@ -1,16 +1,18 @@
-//button 1 stuff
+// linking sounds to the buttons
 $('.play').click(function(){
     var $this = $(this);
     var id = $this.attr('id').replace(/btn/, '');
     $this.toggleClass('active');
     if($this.hasClass('active')){
-        $this.text('');
+        $this.text('pause');
         $('audio[id^="sound"]')[id-1].play();
     } else {
-        $this.text('');
+        $this.text('play');
         $('audio[id^="sound"]')[id-1].pause();
     }
 });
+
+//button 1 stuff
 
 document.getElementById("btn1").addEventListener("click", function(){
     var timeleft = 180;
