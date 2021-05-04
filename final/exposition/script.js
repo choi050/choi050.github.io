@@ -4,10 +4,10 @@ $('.play').click(function(){
     var id = $this.attr('id').replace(/btn/, '');
     $this.toggleClass('active');
     if($this.hasClass('active')){
-        $this.text('pause');
+        $this.text('');
         $('audio[id^="sound"]')[id-1].play();
     } else {
-        $this.text('play');
+        $this.text('');
         $('audio[id^="sound"]')[id-1].pause();
     }
 });
@@ -46,7 +46,7 @@ document.getElementById("countdown1").style.boxShadow = "-1px -1px 1px #000, 1px
 // button2 from here
 
 document.getElementById("btn2").addEventListener("click", function(){
-    var timeleft = 180;
+    var timeleft = 3;
 
     var downloadTimer = setInterval(function function2(){
     document.getElementById("countdown2").innerHTML = timeleft +
@@ -63,7 +63,7 @@ document.getElementById("btn2").addEventListener("click", function(){
 });
 
 function myFunction2() {
-  setTimeout(function(){ alert("Time for the rising action"); }, 180100);
+  setTimeout(function(){ alert("Time for the rising action!"); }, 3100);
 
   var element = document.getElementById("activate2");
   element.classList.add("active");

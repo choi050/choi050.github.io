@@ -16,10 +16,12 @@ body {
   box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
+  background-color: red;
   font-family: custard, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -55,6 +57,15 @@ a {
   text-align: center;
 }
 
+.title1 {
+  width: auto;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
 .maincontainer {
   display: flex;
   flex-direction: column;
@@ -65,17 +76,24 @@ a {
 }
 
 button {
- height: 300px;
- width: 300px;
- border-radius: 10%;
+ height: 150px;
+ width: 150px;
+ border-radius: 50%;
  margin: 20px;
  box-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: space-around
 }
 
 #btn1 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fcountryside.jpeg?v=1619817843223);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fevangelion.jpeg?v=1620150425733);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
 }
 
@@ -88,6 +106,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   text-align: center;
   color: red;
   background-color: black;
+  margin-bottom: 20px;
 }
 
 #activate {
@@ -106,6 +125,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 20px;
   padding: 10px;
   box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
   text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
@@ -115,9 +135,9 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* button 2 seaside styling from here*/
 #btn2 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2F127-1277401_spongebob-island.jpeg?v=1619825334528);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fzoolander.jpeg?v=1620150365214);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 190%;
   background-position: center;
 }
 
@@ -128,8 +148,9 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   font-weight: 500;
   font-style: normal;
   text-align: center;
-  color: red;
   background-color: black;
+  margin-bottom: 20px;
+  margin-top: -15px;
 }
 
 #activate2 {
@@ -157,7 +178,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* button 3 cave styling from here*/
 #btn3 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fcave.jpeg?v=1619827259908);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ffantasticplanet.jpeg?v=1620150279123);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -199,7 +220,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* forest button */
 #btn4 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fforest.jpeg?v=1619826895207);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fconan.jpeg?v=1620150077493);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -241,7 +262,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* kitchen button */
 #btn5 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fkitchen.png?v=1619830243859);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fsparta.jpeg?v=1620150906844);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -281,9 +302,9 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   opacity: 0.5;
 }
 
-/* classroom button */
+/* screaming crowd */
 #btn6 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclassroom.jpeg?v=1619830240988);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fshrek.jpeg?v=1620150793821);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -323,9 +344,9 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   opacity: 0.5;
 }
 
-/* classroom button */
+/* robot */
 #btn7 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Foffice.jpeg?v=1619831085063);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fmadmax.jpg?v=1620160900531);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -365,9 +386,9 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   opacity: 0.5;
 }
 
-/* ballroom button */
+/* thunder */
 #btn8 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fballroom.jpeg?v=1619830241539);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fpsycho.jpg?v=1620160669631);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

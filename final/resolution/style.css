@@ -16,10 +16,12 @@ body {
   box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
+  background-color: red;
   font-family: custard, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -55,6 +57,15 @@ a {
   text-align: center;
 }
 
+.title1 {
+  width: auto;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
 .maincontainer {
   display: flex;
   flex-direction: column;
@@ -65,18 +76,23 @@ a {
 }
 
 button {
- height: 300px;
- width: 300px;
- border-radius: 10%;
- margin: 20px;
+ height: 170px;
+ width: 170px;
+ border-radius: 5%;
  box-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+ margin: 5px;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: space-around
 }
 
 #btn1 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fcountryside.jpeg?v=1619817843223);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fher.jpeg?v=1620161566155);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 #countdown1 {
@@ -88,6 +104,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   text-align: center;
   color: red;
   background-color: black;
+  margin-bottom: 20px;
 }
 
 #activate {
@@ -106,6 +123,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 20px;
   padding: 10px;
   box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
   text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
@@ -115,7 +133,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* button 2 seaside styling from here*/
 #btn2 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2F127-1277401_spongebob-island.jpeg?v=1619825334528);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ffightclub.jpg?v=1620163572237);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -128,8 +146,9 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   font-weight: 500;
   font-style: normal;
   text-align: center;
-  color: red;
   background-color: black;
+  margin-bottom: 20px;
+  margin-top: -15px;
 }
 
 #activate2 {
@@ -157,7 +176,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* button 3 cave styling from here*/
 #btn3 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fcave.jpeg?v=1619827259908);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fchungking.jpeg?v=1620163120870);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -199,7 +218,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* forest button */
 #btn4 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fforest.jpeg?v=1619826895207);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fcallme.jpg?v=1620161973473);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -241,9 +260,9 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* kitchen button */
 #btn5 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fkitchen.png?v=1619830243859);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclockwork.jpeg?v=1620164524501);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 150%;
   background-position: center;
 }
 
@@ -281,9 +300,9 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   opacity: 0.5;
 }
 
-/* classroom button */
+/* screaming crowd */
 #btn6 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclassroom.jpeg?v=1619830240988);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fdonniedarko.jpeg?v=1620164976167);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -323,12 +342,12 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   opacity: 0.5;
 }
 
-/* classroom button */
+/* robot */
 #btn7 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Foffice.jpeg?v=1619831085063);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fbluevelvet.jpeg?v=1620165079323);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 #countdown7 {
@@ -365,12 +384,12 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   opacity: 0.5;
 }
 
-/* ballroom button */
+/* thunder */
 #btn8 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fballroom.jpeg?v=1619830241539);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fsubmarine.jpeg?v=1620165317198);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 #countdown8 {
@@ -409,7 +428,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* jazz bar button */
 #btn9 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fbarr.jpeg?v=1619830471399);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fstepbrothers.png?v=1620161609157);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -451,10 +470,10 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* jazz bar button */
 #btn10 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclub.jpeg?v=1619831713458);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fmeangirls.jpeg?v=1620165910445);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 #countdown10 {
