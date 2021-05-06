@@ -149,6 +149,10 @@ button {
   color: black;
   border: none;
   background-color: #F0F0A1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 #overlay {
