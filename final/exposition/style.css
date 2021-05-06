@@ -270,7 +270,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 #btn6 {
 background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fballroom.jpeg?v=1619830241539);
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: cover;
   background-position: center;
 }
 
@@ -803,7 +803,7 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 #btn6 {
 background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fballroom.jpeg?v=1619830241539);
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: cover;
   background-position: center;
 }
 
