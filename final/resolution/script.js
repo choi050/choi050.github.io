@@ -32,7 +32,7 @@ document.getElementById("btn1").addEventListener("click", function(){
 });
 
 function myFunction() {
-  setTimeout(function(){ alert("Time for the action to rise!"); }, 5100);
+  setTimeout(function(){ alert("Congratulations! You acted out a whole one-of-a-kind short story in five minutes."); }, 5100);
 
   var element = document.getElementById("activate");
   element.classList.add("active");
