@@ -5,21 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>IMPROV GAME</title>
+    <title>IMPROVISED</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.typekit.net/kja6qol.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xqk0otc.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="script.js" defer></script>
 
   </head>
 <body>
+  <div id="overlay">
+
+    <div class="spotlighton"></div>
+      <button id="off" onclick="off()"><h3>X</h3></button>
+    <div id="text"><p>
+      A vise is a tool that can tightly hold something together, like a clamp.<br>
+      Become a human vise by becoming a master of holding a situation together.<br>
+      This is a timed improvisation tool that will test your freestyle acting abilities. <br>
+      You have one minute to act out each section of the narrative, improvising based on the sound you select.
+    </p></div>
+  </div>
   <div class="maincontainer">
-  <h1>IMPROV<br>GAME</h1>
-  <div class="led-box">
-    <div class="led-red"></div>
+  <div class="title"><h1>I'M<br>PRO<br>VISED</h1></div>
+  <div class="subtitle"><p>The Art of Keeping it Together</p></div>
+  <div class="buttoncontainer">
+  <button onclick="on()"><h3>?</h3></button>
+  <button class="button"><a href="exposition/index.html">BEGIN</a></button>
+</div>
   </div>
-  <button><a href="exposition/index.html">BEGIN</a></button>
-  </div>
+  <div class="spotlight"></div>
   </body>
 </html>

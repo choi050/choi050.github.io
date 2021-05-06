@@ -8,7 +8,7 @@
     <title>EXPOSITION</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.typekit.net/kja6qol.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xqk0otc.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -19,87 +19,93 @@
 <body>
   <div class="maincontainer">
   <div id="headercontainer">
-  <div class="title"><h1>EXPOSITION</h1></div>
-  <div class="description"><h2>Where you at? Choose one.</h2></div>
+  <div class="title1"><h1>EXPOSITION</h1></div>
+  <div class="description"><h2>Where are you? Choose one.</h2></div>
+  <div id= "countdown"></div>
+  <div id="activate">
+    <a href="../action/index.html" class="button">Rising Action ➞</a>
+  </div>
 </div>
-    <!-- Seaside -->
-    <button class="play" id="btn2" onclick="myFunction2()"></button>
-    <div id= "countdown2"></div>
-    <div id="activate2">
-      <a href="../action/index.html" class="button">ACTION TIME ➞</a>
-    </div>
-    <!-- Cave -->
-    <button class="play" id="btn3" onclick="myFunction3()"></button>
-    <div id= "countdown3"></div>
-    <div id="activate3">
-      <a href="../action/index.html" class="button">ACTION TIME ➞</a>
-    </div>
-    <!-- Forest -->
-    <button class="play" id="btn4" onclick="myFunction4()"></button>
-    <div id= "countdown4"></div>
-    <div id="activate4">
-      <a href="../action/index.html" class="button">ACTION TIME ➞</a>
-    </div>
-    <!-- Countryside -->
+<div id="btncontainer">
+<div class="buttoncontainer">
+  <!-- Forest -->
+  <button class="play" id="btn11" onclick="myFunction()"></button>
+</div>
+  <div class="buttoncontainer">
+    <!-- Ocean -->
     <button class="play" id="btn1" onclick="myFunction()"></button>
-    <div id= "countdown1"></div>
-    <div id="activate">
-    <a href="../action/index.html" class="button">ACTION TIME ➞</a>
-    </div>
-    <!-- Classroom -->
-    <button class="play" id="btn6" onclick="myFunction6()"></button>
-    <div id= "countdown6"></div>
-    <div id="activate6">
-      <a href="../action/index.html" class="button">ACTION TIME ➞</a>
-    </div>
-    <!-- Kitchen -->
-    <button class="play" id="btn5" onclick="myFunction5()"></button>
-    <div id= "countdown5"></div>
-    <div id="activate5">
-      <a href="../action/index.html" class="button">ACTION TIME ➞</a>
-    </div>
-    <!-- Office -->
-    <button class="play" id="btn7" onclick="myFunction7()"></button>
-    <div id= "countdown7"></div>
-    <div id="activate7">
-      <a href="../action/index.html" class="button">ACTION TIME ➞</a>
-    </div>
-    <!-- ballroom -->
-    <button class="play" id="btn8" onclick="myFunction8()"></button>
-    <div id= "countdown8"></div>
-    <div id="activate8">
-      <a href="../action/index.html" class="button">ACTION TIME ➞</a>
-    </div>
-    <!-- jazz bar -->
-    <button class="play" id="btn9" onclick="myFunction9()"></button>
-    <div id= "countdown9"></div>
-    <div id="activate9">
-      <a href="../action/index.html" class="button">ACTION TIME ➞</a>
-    </div>
-    <!-- club-->
-    <button class="play" id="btn10" onclick="myFunction10()"></button>
-    <div id= "countdown10"></div>
-    <div id="activate10">
-      <a href="../action/index.html" class="button">ACTION TIME ➞</a>
-    </div>
-
-
+  </div>
+  <div class="buttoncontainer">
+    <!-- Cave -->
+    <button class="play" id="btn2" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Forest -->
+    <button class="play" id="btn3" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Countryside -->
+    <button class="play" id="btn4" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Forest -->
+    <button class="play" id="btn5" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Forest -->
+    <button class="play" id="btn6" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Forest -->
+    <button class="play" id="btn7" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Forest -->
+    <button class="play" id="btn8" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Forest -->
+    <button class="play" id="btn12" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Forest -->
+    <button class="play" id="btn13" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Forest -->
+    <button class="play" id="btn9" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Forest -->
+    <button class="play" id="btn10" onclick="myFunction()"></button>
+  </div>
+  <div class="buttoncontainer">
+    <!-- Forest -->
+    <button class="play" id="btn14" onclick="myFunction()"></button>
+  </div>
+</div>
+<div id="arrowcontainer">
+  <div class="arrow"><h4>ᐸ</h4></div>
+  <div class="scroll"><h4>Scroll</h4></div>
+  <div class="arrow"><h4>ᐳ</h4></div>
+</div>
+</div>
 
     <!-- Audiofiles here -->
 <audio id="sound1">
-  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2FAMBBird_Countryside%20(ID%200097)_BSB.mp3?v=1619569309370"/>
-</audio>
-
-<audio id="sound2">
   <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2FAMBSea_Sea%20waves%20and%20seagulls%20(ID%200267)_BSB.mp3?v=1619569307362"/>
 </audio>
 
-<audio id="sound3">
+<audio id="sound2">
   <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2FAMBUndr_Cave%202%20(ID%202136)_BSB.mp3?v=1619569309462"/>
 </audio>
 
+<audio id="sound3">
+  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2FAMBBird_Countryside%20(ID%200097)_BSB.mp3?v=1619569309370"/>
+</audio>
+
 <audio id="sound4">
-  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2FAMBForst_Forest%20(ID%200100)_BSB.mp3?v=1619569302163"/>
+  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2FAMBBird_Countryside%20(ID%200097)_BSB.mp3?v=1619569309370"/>
 </audio>
 
 <audio id="sound5">
@@ -107,7 +113,7 @@
 </audio>
 
 <audio id="sound6">
-  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fschool.mp3?v=1619830747319"/>
+  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fbaroqueparty.mp3?v=1619736382476"/>
 </audio>
 
 <audio id="sound7">
@@ -115,7 +121,7 @@
 </audio>
 
 <audio id="sound8">
-  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fbaroqueparty.mp3?v=1619736382476"/>
+  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fschool.mp3?v=1619830747319"/>
 </audio>
 
 <audio id="sound9">
@@ -124,6 +130,22 @@
 
 <audio id="sound10">
   <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclub.mp3?v=1619831757620"/>
+</audio>
+
+<audio id="sound11">
+  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fdesert.mp3?v=1620274034514"/>
+</audio>
+
+<audio id="sound12">
+  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Flibrary.mp3?v=1620273832797"/>
+</audio>
+
+<audio id="sound13">
+  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fmarket.mp3?v=1620276630948"/>
+</audio>
+
+<audio id="sound14">
+  <source src="https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fsubway.mp3?v=1620276632801"/>
 </audio>
 
   </div>

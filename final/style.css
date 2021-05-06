@@ -1,91 +1,347 @@
 @media screen and (max-width: 567px) {
 body {
-  background-color: #478eff;
+  background-color: #ebe9e6;
 }
 
 h1 {
-  font-family: custard, sans-serif;
+  font-family: acier-bat-noir, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 80pt;
+  font-size: 100pt;
+  text-align: justify;
+  color: black;
+  line-height: 100px;
+   height: 300px;
+   margin: 0;
+   padding: 0;
+}
+
+p {
+  font-family: rockwell, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18pt;
   text-align: center;
-  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
-  	color: #478eff;
-  	opacity: 0.8;
+  color: black;
 }
 
 a {
   text-decoration: none;
-  font-size: 18pt;
-  font-family: input-mono, monospace;
-  font-weight: 500;
-  font-style: normal;
+  font-size: 15pt;
+  font-family: rockwell, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
   color: black;
+}
+
+h3 {
+  text-decoration: none;
+  font-size: 15pt;
+  font-family: rockwell, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+  color: black;
+}
+
+.spotlight {
+  background-color: yellow;
+  width: 60%;
+  height: 50%;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  position: fixed; /* or absolute */
+  top: 15%;
+  left: 20%;
+  transform: rotate(-45deg);
+  opacity: 0.3;
+  animation-name: spotlight;
+  animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes spotlight {
+  0% {opacity: 0.3;}
+  20% {opacity: 0;}
+  25% {opacity: 0.3;}
+  27% {opacity: 0;}
+  30% {opacity: 0.5;}
+  40% {opacity: 0;}
+  60% {opacity: 0.5;}
+  70% {opacity: 0;}
+  100% {opacity: 0.3;}
+}
+
+.spotlighton {
+  background-color: #F0F0A1;
+  width: 90%;
+  height: 80%;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text{
+  width: 310px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#text p {
+  text-align: center;
+}
+
+#off {
+  position: fixed; /* or absolute */
+  top: 5%;
+  right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .maincontainer {
   width: 90%;
-  height: 90%;
+  height: 60%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  align-content: stretch;
   position: fixed; /* or absolute */
   top: 50%;
   left: 50%;
-  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
   transform: translate(-50%, -50%);
 }
 
+.buttoncontainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 button {
+  width: 49%;
   display: inline-block;
-  padding: 10px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
-  background-color: #478eff;
-  border: 1px solid black;
-  border-radius: 15px;
-  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
-  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
-  color: #478eff;
-  opacity: 0.5;
-}
-
-button:hover {background-color: #478eff}
-
-button:active {
-  background-color: #478eff;
-  box-shadow: 0 5px black;
-  transform: translateY(4px);
-}
-
-.led-box {
-  height: 50px;
-  width: 25%;
-  margin: 10px 0;
-  float: left;
-}
-
-.led-red {
-  margin: 0 auto;
-  width: 20px;
-  height: 20px;
   border-radius: 50%;
-  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
-  background-color: #478eff;
-  animation-name: led;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  color: black;
+  border: none;
+  background-color: #F0F0A1;
 }
 
-@keyframes led {
-  0% {background-color: #478eff;}
-  60% {background-color: lime;}
-  70% {background-color: #478eff;}
-  80% {background-color: lime;}
-  100% {background-color: #478eff;}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  z-index: 2;
+  cursor: pointer;
+}
+
+}
+
+
+@media screen and (min-width: 568px) {
+body {
+  background-color: #ebe9e6;
+}
+
+h1 {
+  font-family: acier-bat-noir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 140pt;
+  text-align: justify;
+  color: black;
+  line-height: 140px;
+   height: 300px;
+   margin: 0;
+   padding: 0;
+}
+
+p {
+  font-family: rockwell, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24pt;
+  text-align: center;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24pt;
+  font-family: rockwell, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+  color: black;
+}
+
+h3 {
+  text-decoration: none;
+  font-size: 24pt;
+  font-family: rockwell, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+  color: black;
+}
+
+.subtitle {
+  margin-top: 150px;
+}
+
+.spotlight {
+  background-color: yellow;
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  position: fixed; /* or absolute */
+  top: 15%;
+  left: 30%;
+  transform: rotate(45deg);
+  opacity: 0.3;
+  animation-name: spotlight1;
+  animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes spotlight1 {
+  0% {opacity: 0.3;}
+  20% {opacity: 0;}
+  25% {opacity: 0.3;}
+  27% {opacity: 0;}
+  30% {opacity: 0.5;}
+  40% {opacity: 0;}
+  60% {opacity: 0.5;}
+  70% {opacity: 0;}
+  100% {opacity: 0.3;}
+}
+
+.spotlighton {
+  background-color: #F0F0A1;
+  width: 90%;
+  height: 80%;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text{
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#text p {
+  text-align: center;
+}
+
+#off {
+  position: fixed; /* or absolute */
+  top: 80%;
+  right: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontainer {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttoncontainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 49%;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border-radius: 50%;
+  color: black;
+  border: none;
+  background-color: #F0F0A1;
+}
+
+button:hover {
+  background-color: #ebe9e6;
+  border: 3px solid black;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  z-index: 2;
+  cursor: pointer;
 }
 
 }

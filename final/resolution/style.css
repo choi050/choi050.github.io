@@ -1,58 +1,54 @@
 @media screen and (max-width: 567px) {
 
-.maincontainer {
-  box-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
-}
 body {
-    background-color: #478eff;
+    background-color: black;
 }
 
 #headercontainer {
-  background-color: #478eff;
+background: linear-gradient(#F0F0A1, #F0F0A1, #F0F0A1, #F0F0A1, #F0F0A1, transparent);
   width: 100%;
   position:-webkit-sticky;
   position:sticky;
   top:0;
-  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  opacity: 0.8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: -10px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 h1 {
-  background-color: red;
-  font-family: custard, sans-serif;
+  font-family: acier-bat-noir, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60pt;
+  font-size: 42pt;
   text-align: center;
  background-color: gray;
  line-height: 0px;
   height: 0px;
-  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
-  	color: #478eff;
-  	opacity: 0.8;
+  	color: black;
 }
 
 h2 {
   text-decoration: none;
-  font-size: 12pt;
-  font-family: input-mono, monospace;
-  font-weight: 500;
-  font-style: normal;
+  font-size: 15pt;
+  font-family: rockwell, sans-serif;
+  font-weight: 400;
   text-align: center;
-  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
-  	color: #478eff;
-  	opacity: 0.8;
+  color: black;
 }
 
 a {
   text-decoration: none;
-  font-size: 12pt;
-  font-family: input-mono, monospace;
-  font-weight: 500;
-  font-style: normal;
+  text-decoration: none;
+  font-size: 15pt;
+  font-family: rockwell, sans-serif;
+  font-weight: 400;
   color: black;
   text-align: center;
 }
@@ -63,7 +59,15 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.description {
+  height: 15pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .maincontainer {
@@ -76,11 +80,11 @@ a {
 }
 
 button {
- height: 170px;
- width: 170px;
- border-radius: 5%;
- box-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
- margin: 5px;
+ height: 300px;
+ width: 300px;
+ margin: 20px;
+ margin-left: 10px;
+ margin-right: 10px;
 }
 
 .buttoncontainer {
@@ -88,23 +92,23 @@ button {
   justify-content: space-around
 }
 
-#btn1 {
+/* button 1 seaside styling from here*/
+
+#btn2 {
 background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fher.jpeg?v=1620161566155);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+  background-size: 100%;
+  background-position: 0px -100px;
 }
 
-#countdown1 {
+#countdown {
   text-decoration: none;
   font-size: 12pt;
-  font-family: input-mono, monospace;
-  font-weight: 500;
+  font-family: rockwell, sans-serif;
+  font-weight: 400;
   font-style: normal;
   text-align: center;
-  color: red;
-  background-color: black;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 #activate {
@@ -116,70 +120,32 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 #activate.active {
   display: block;
-  width: 180px;
-  height: 50px;
-  border-radius: 50px;
+  width: 340px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
   padding: 10px;
-  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
-  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
-  color: #478eff;
-  opacity: 0.5;
+  background-color: #F0F0A1;
 }
 
 /* button 2 seaside styling from here*/
-#btn2 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ffightclub.jpg?v=1620163572237);
+#btn1 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclockwork.jpeg?v=1620164524501);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-}
-
-#countdown2 {
-  text-decoration: none;
-  font-size: 12pt;
-  font-family: input-mono, monospace;
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-  background-color: black;
-  margin-bottom: 20px;
-  margin-top: -15px;
-}
-
-#activate2 {
-  display: none;
-}
-
-#activate2 a {
-}
-
-#activate2.active {
-  display: block;
-  width: 180px;
-  height: 50px;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  padding: 10px;
-  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
-  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
-  color: #478eff;
-  opacity: 0.5;
+  background-position: bottom;
 }
 
 /* button 3 cave styling from here*/
 #btn3 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fchungking.jpeg?v=1620163120870);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fmeangirls.jpeg?v=1620165910445);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 0px -50px;
 }
 
 #countdown3 {
@@ -216,12 +182,12 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   opacity: 0.5;
 }
 
-/* forest button */
+/* cottage */
 #btn4 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fcallme.jpg?v=1620161973473);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ffightclub.jpg?v=1620163572237);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 0px -100px;
 }
 
 #countdown4 {
@@ -260,9 +226,9 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* kitchen button */
 #btn5 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclockwork.jpeg?v=1620164524501);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fchungking.jpeg?v=1620163120870);
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: cover;
   background-position: center;
 }
 
@@ -302,10 +268,10 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* screaming crowd */
 #btn6 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fdonniedarko.jpeg?v=1620164976167);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fsubmarine.jpeg?v=1620165317198);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 #countdown6 {
@@ -344,10 +310,10 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* robot */
 #btn7 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fbluevelvet.jpeg?v=1620165079323);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fstepbrothers.png?v=1620161609157);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: 0px -10px;
 }
 
 #countdown7 {
@@ -386,10 +352,10 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* thunder */
 #btn8 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fsubmarine.jpeg?v=1620165317198);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fcallme.jpg?v=1620161973473);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: center;
 }
 
 #countdown8 {
@@ -428,10 +394,10 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* jazz bar button */
 #btn9 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fstepbrothers.png?v=1620161609157);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fbluevelvet.jpeg?v=1620165079323);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 #countdown9 {
@@ -470,10 +436,10 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
 
 /* jazz bar button */
 #btn10 {
-background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fmeangirls.jpeg?v=1620165910445);
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fdonniedarko.jpeg?v=1620322333566);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: 0px -80px;
 }
 
 #countdown10 {
@@ -510,4 +476,596 @@ background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef0
   opacity: 0.5;
   margin-bottom: 20px;
 }
+
+/* desert button */
+#btn11 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclockwork.jpeg?v=1620164524501);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* library button */
+#btn12 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Flibrary.jpeg?v=1620273832607);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* market button */
+#btn13 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fmarket.jpeg?v=1620276631044);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* subway button */
+#btn14 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclockwork.jpeg?v=1620164524501);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#arrowcontainer {
+  display: none;
+}
+
+}
+
+@media screen and (min-width: 568px) {
+
+body {
+    background-color: black;
+}
+
+#headercontainer {
+background: linear-gradient(#F0F0A1, #F0F0A1, #F0F0A1,#F0F0A1, transparent);
+  width: 100%;
+  height: 100%;
+  position:-webkit-sticky;
+  position:sticky;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#btncontainer {
+  width: 460px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+
+
+h1 {
+  font-family: acier-bat-noir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64pt;
+  text-align: center;
+ background-color: gray;
+ line-height: 0px;
+  height: 0px;
+  	color: black;
+}
+
+h2 {
+  text-decoration: none;
+  font-size: 24pt;
+  font-family: rockwell, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  text-decoration: none;
+  font-size: 15pt;
+  font-family: rockwell, sans-serif;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+
+.title1 {
+  width: auto;
+  height: 72pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  height: 24pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+button {
+ height: 450px;
+ width: 450px;
+ margin: 20px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: space-around
+}
+
+/* button 1 seaside styling from here*/
+
+#btn2 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fher.jpeg?v=1620161566155);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px -150px;
+}
+
+#countdown {
+  font-size: 18pt;
+  font-family: rockwell, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#activate {
+  display: none;
+}
+
+#activate a {
+  text-decoration: none;
+  font-size: 24pt;
+  font-family: rockwell, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+}
+
+#activate.active {
+  display: block;
+  width: 450px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #F0F0A1;
+}
+
+/* button 2 seaside styling from here*/
+#btn1 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclockwork.jpeg?v=1620164524501);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* button 3 cave styling from here*/
+#btn3 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fmeangirls.jpeg?v=1620165910445);
+  background-repeat: no-repeat;
+  background-size: cover;
+background-position: 0px -50px;
+}
+
+#countdown3 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+
+#activate3 {
+  display: none;
+}
+
+#activate3 a {
+}
+
+#activate3.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+  color: #478eff;
+  opacity: 0.5;
+}
+
+/* cottage */
+#btn4 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Ffightclub.jpg?v=1620163572237);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -150px;
+}
+
+#countdown4 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+
+#activate4 {
+  display: none;
+}
+
+#activate4 a {
+}
+
+#activate4.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+  color: #478eff;
+  opacity: 0.5;
+}
+
+/* kitchen button */
+#btn5 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fchungking.jpeg?v=1620163120870);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown5 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+
+#activate5 {
+  display: none;
+}
+
+#activate5 a {
+}
+
+#activate5.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+  color: #478eff;
+  opacity: 0.5;
+}
+
+/* screaming crowd */
+#btn6 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fsubmarine.jpeg?v=1620165317198);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#countdown6 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+
+#activate6 {
+  display: none;
+}
+
+#activate6 a {
+}
+
+#activate6.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+  color: #478eff;
+  opacity: 0.5;
+}
+
+/* robot */
+#btn7 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fstepbrothers.png?v=1620161609157);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -10px;
+}
+
+#countdown7 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+
+#activate7 {
+  display: none;
+}
+
+#activate7 a {
+}
+
+#activate7.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+  color: #478eff;
+  opacity: 0.5;
+}
+
+/* thunder */
+#btn8 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fcallme.jpg?v=1620161973473);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown8 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+
+#activate8 {
+  display: none;
+}
+
+#activate8 a {
+}
+
+#activate8.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+  color: #478eff;
+  opacity: 0.5;
+}
+
+/* jazz bar button */
+#btn9 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fbluevelvet.jpeg?v=1620165079323);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#countdown9 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+
+#activate9 {
+  display: none;
+}
+
+#activate9 a {
+}
+
+#activate9.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+  color: #478eff;
+  opacity: 0.5;
+}
+
+/* jazz bar button */
+#btn10 {
+  background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fdonniedarko.jpeg?v=1620322333566);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -120px;
+}
+
+#countdown10 {
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: input-mono, monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+
+#activate10 {
+  display: none;
+}
+
+#activate10 a {
+}
+
+#activate10.active {
+  display: block;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+  color: #478eff;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+/* desert button */
+#btn11 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclockwork.jpeg?v=1620164524501);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* library button */
+#btn12 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Flibrary.jpeg?v=1620273832607);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* market button */
+#btn13 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fmarket.jpeg?v=1620276631044);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* subway button */
+#btn14 {
+background-image: url(https://cdn.glitch.com/1ad4e846-ecc8-46bb-8977-ebe054b3ef05%2Fclockwork.jpeg?v=1620164524501);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#arrowcontainer {
+  width: 45%;
+  height: 5px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+h4 {
+  font-family: rockwell, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #F0F0A1;
+  font-size: 12pt;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {color: #F0F0A1;}
+  50%  {color: black;}
+  100% {color: #F0F0A1;}
+}
+
+
 }
